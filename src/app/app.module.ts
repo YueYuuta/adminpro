@@ -11,6 +11,9 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 // Temporal
 import { FormsModule } from '@angular/forms';
+// Servicios
+import { ServiceModule } from './services/service.module';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
