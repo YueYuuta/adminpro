@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SettingsService, SidebarService , SharedService, UsuarioService,LoginGuardGuard } from './service.index';
+import { SettingsService, SidebarService , SharedService,SubirArchivoService, UsuarioService,LoginGuardGuard } from './service.index';
 import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [],
@@ -13,7 +13,8 @@ import { HttpClientModule } from '@angular/common/http';
     SharedService,
     UsuarioService,
     LoginGuardGuard,
-    LoginGuardGuard
+    LoginGuardGuard,
+    SubirArchivoService
   ]
 })
 export class ServiceModule { }
